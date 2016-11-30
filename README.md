@@ -28,13 +28,14 @@ browser quite easily:
 ```bash
 git clone https://github.com/mbrochh/django-reactjs-boilerplate.git
 cd django-react-boilerplate/django
-mkvirtualenv djreact
+mkvirtualenv --python=`which python3` djreact
 pip install -r requirements.txt
 npm install
 ./manage.py migrate
 ./manage.py runserver
 
 # in another terminal:
+mv webpack.local-settings.js.sample webpack.local-settings.js
 node server.js
 ```
 
