@@ -26,7 +26,7 @@ You can clone this repository, install all dependencies and try it in your
 browser quite easily:
 
 ```bash
-git clone https://github.com/mbrochh/django-reactjs-boilerplate.git
+git clone https://github.com/mehanig/django-reactjs-boilerplate
 cd django-react-boilerplate/django
 mkvirtualenv --python=`which python3` djreact
 pip install -r requirements.txt
